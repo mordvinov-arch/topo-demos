@@ -1,0 +1,27 @@
+{
+  "region": "GLOBAL",
+  "window_start": "2022-01-01",
+  "cii": 90.7,
+  "level": "HIGH",
+  "components": {
+    "vol_weight": 0.25,
+    "trend_weight": 0.25,
+    "evt_weight": 0.25,
+    "regime_weight": 0.25
+  },
+  "metrics": {
+    "volatility_anomaly_sd": 0.1235,
+    "trend_c_per_month": 0.0157,
+    "evt_tail_risk": 16.08,
+    "regime_change_mahalanobis": 140.10
+  },
+  "global_evt": {
+    "shape_xi": -0.287,
+    "tail_type": "Weibull (лёгкий хвост, ограниченный сверху)"
+  },
+  "hsic_lag120": {
+    "p": 0.0,
+    "pearson": 0.82
+  },
+  "generated_at": "2026-08-29T00:00:00Z"
+}
